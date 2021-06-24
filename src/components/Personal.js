@@ -27,6 +27,8 @@ const Container = styled.div`
     text-align: center;
     display: flex;
 
+    
+
 `
 
 const SocialMedia = styled.div`
