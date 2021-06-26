@@ -49,6 +49,23 @@ const Nav = styled.nav`
     display: flex;
     align-items: center;
     padding: 0 36px;
+    background: transparent;
+    background-image: linear-gradient(
+        180deg
+        ,rgba(24,29,37,.8) 2%,rgba(24,29,37,0) 98%);
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 1120;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5px 50px;
+        font-size: 16px;
+       
 
     span {
         font-size: 12px;
@@ -59,6 +76,11 @@ const Nav = styled.nav`
         &:hover {
             color: #E9781F; 
         }
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        display: none;
     }
 
     
